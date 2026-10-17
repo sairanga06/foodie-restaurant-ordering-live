@@ -1,0 +1,16 @@
+FOODIE — START HERE
+===================
+
+LOCAL RUN
+1. Open this entire folder in VS Code.
+2. Run .\RUN_FOODIE.bat in the VS Code terminal.
+3. Visit http://127.0.0.1:8000/
+
+PUBLIC WEBSITE DEPLOYMENT
+1. Push this project to GitHub.
+2. Create a PostgreSQL project on https://neon.tech/ and copy its connection string.
+3. Open https://dashboard.render.com/blueprints and create a Blueprint from your GitHub repository.
+4. Paste the Neon connection string when Render asks for DATABASE_URL.
+5. Apply the Blueprint and wait for deployment. Share the onrender.com URL shown on Render.
+
+The application uses PostgreSQL when DATABASE_URL is set and SQLite locally. Demo payments do not take real money; status tracking is simulated, not GPS tracking.
